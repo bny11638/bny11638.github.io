@@ -1,12 +1,17 @@
 /** #293250 #FFD55A #6DD47E */
+* {
+    box-sizing: border-box;
+  }
 
 body {
     max-width:1000px;
     align-self: center;
     margin:auto;  
-    border-color: #333;
+    border-color:darkslategray;
     border-width: 3px;
     border-style:solid; 
+    height: auto;
+    background-color: #293250;
 }
 main {
     background-color:white;
@@ -64,6 +69,8 @@ main {
       border-color: #6DD47E;
       border-right-style: dashed;
       border-width: 4px;
+      height:100%;
+
   }
   .column1>img {
       max-width: 90%;
@@ -81,8 +88,17 @@ main {
     font-family: Arial, Helvetica, sans-serif;
   }
   .column2 {
-      padding-top:2em;
+      background-color: #333;
+      padding-left: .5em;
+      padding-top:1em;
       padding-right:1em;
-      float: left;
-      width:60%
+      float: right;
+      width:70%;
+      height:100%;
+  }
+  .column2 h1 {
+      font-size: 140%;
+      text-align: center;
+      color: #FFD55A;
+      font-family: 'Courier New', Courier, monospace;
   }
